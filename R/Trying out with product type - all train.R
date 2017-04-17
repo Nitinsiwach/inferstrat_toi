@@ -1,6 +1,6 @@
 library(data.table)
 library(caret)
-setwd('C:/Users/Goutam Ghosh/Desktop/Times of India - Analysis/Codes run/Presentation/Offline Predictor/use this/finals_mar26/finals_mar26/lets do it/Last modifications')
+#setwd('C:/Users/Goutam Ghosh/Desktop/Times of India - Analysis/Codes run/Presentation/Offline Predictor/use this/finals_mar26/finals_mar26/lets do it/Last modifications')
 
 source('buildModel_hdr.R')
 
