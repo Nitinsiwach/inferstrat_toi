@@ -28,6 +28,8 @@ dontuse.cols= c("Runid", "IssueID", "IssueDate", "Edition", "Main.Suppl",
 
 #removing ColorPages and BWpage. dated - 18/04/2017
 dontuse.cols <- c(dontuse.cols,"BWPages", "ColorPages")
+
+
 targs= c('Total.Run.time..Mnts.', 'Total.Downtime', 'Number.of.stoppages', 'W.b.s','Avg.Speed')
 
 master[, targ:= Avg.Speed]
